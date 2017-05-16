@@ -1,0 +1,5 @@
+<h1>지금까지 들어온 질문들입니다.</h1>
+<% @qs.each do |q| %>
+  <p><b><%=q.name %> : <%=q.content %></b></p>
+  <hr>
+<% end %>
